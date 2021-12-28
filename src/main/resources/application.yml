@@ -1,0 +1,12 @@
+server:
+  port: 5001
+
+app:
+  dataSource:
+    postgres:
+      port: 5432
+      username: postgres
+      password: Welcome
+      host: localhost
+      databaseName: conference_app
+      url: "jdbc:postgresql://localhost:5432/conference_app"
